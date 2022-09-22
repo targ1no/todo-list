@@ -23,10 +23,10 @@ Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do brows
 
 ## Features
 
+- Limpa o input
 - Adiciona um item
 - Deleta um item
 - Checa um item
-- Limpa o input
 
 
 ## Run Locally
@@ -40,7 +40,13 @@ Faça o clone do projeto
 Vá para o diretório dele
 
 ```bash
-  cd toDoList
+  cd todo-list
+```
+
+Instale as dependências dos testes
+
+```bash
+  npm install
 ```
 
 Instale a extensão do Live Server (vsCode)
@@ -48,6 +54,16 @@ Instale a extensão do Live Server (vsCode)
 ```bash
   open with Live Server
 ```
+
+## Running Tests
+
+Para executar os testes, siga os seguintes comandos:
+(Verifique se tem o NodeJs instalado na sua máquina antes de dar continuidade)
+
+```bash
+  npm run cypress:run
+```
+
 ## Feedback
 
 Se você tem algum feedback, por favor, entre em contato comigo pelo endereço de e-mail a seguir: contatobrunatargino@gmail.com :)
@@ -59,5 +75,5 @@ Se você tem algum feedback, por favor, entre em contato comigo pelo endereço d
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Cypress, Mocha, Chai, Bdd, Javascript, HTML, CSS...
 
