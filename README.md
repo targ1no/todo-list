@@ -1,8 +1,11 @@
 
 # To do List
 
-Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS na prática.
+Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS e Cypress na prática.
 
+## Status
+
+- Em desenvolvimento
 
 ## Authors
 
@@ -61,7 +64,7 @@ Para executar os testes, siga os seguintes comandos:
 (Verifique se tem o NodeJs instalado na sua máquina antes de dar continuidade)
 
 ```bash
-  npm run cypress:run
+  npx cypress run
 ```
 
 ## Feedback
