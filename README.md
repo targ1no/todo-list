@@ -1,7 +1,7 @@
 
 # To do List
 
-Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS e Cypress na prática.
+Uma lista de "Todos", tendo como finalidade colocar conhecimento em JS e Cypress na prática.
 
 ## Status
 
@@ -16,7 +16,7 @@ Uma lista de "ToDos", tendo como finalidade colocar conhecimento em JS e Cypress
 
 Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do browser:
 
-- [To do List](https://targ1no.github.io/toDoList/)
+- [Todo List](https://targ1no.github.io/todo-list/)
 
 
 ## Demo
