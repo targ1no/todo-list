@@ -52,7 +52,7 @@ Instale as dependências dos testes
   npm install
 ```
 
-Instale a extensão do Live Server (vsCode)
+Instale a extensão do Live Server (vsCode) e rode o comando abaixo
 
 ```bash
   open with Live Server
