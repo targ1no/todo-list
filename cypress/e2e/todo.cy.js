@@ -13,7 +13,7 @@ describe('Fluxo Todo List', () => {
         .should('have.value', 'School')
     });
 
-    it('Quando clica no botão "clear"', () => {
+    it('Quando clica no botão "Clear"', () => {
       cy.get('#clearButton')
         .click()
     });
@@ -42,8 +42,8 @@ describe('Fluxo Todo List', () => {
     });
 
     it('Então deverá ter criado um novo item na lista de Todos', () => {
-      cy.get('#list')
-        .should('have.length', 1)
+      cy.get('#list > div')
+        .should('be.not.empty')
     })
   })
 
@@ -65,8 +65,8 @@ describe('Fluxo Todo List', () => {
     });
 
     it('Quando o Todo estiver criado', () => {
-      cy.get('#list')
-        .should('have.length', 1)
+      cy.get('#list > div')
+        .should('be.not.empty')
     })
 
     it('E clicar no checkbox em branco, acima do Todo', () => {
@@ -78,4 +78,37 @@ describe('Fluxo Todo List', () => {
       //ASSERTIONS
     })
   })
+
+  context('Verificando botão para deletar Todo', () => {
+    it('Dado que o usuário acessa a página da aplicação', () => {
+      cy.visit('https://targ1no.github.io/todo-list/')
+    });
+
+    it('E digita um item no input', () => {
+      cy.get('#input')
+        .type('School')
+      cy.get('#input')
+        .should('have.value', 'School')
+    });
+
+    it('E clica no botão "Add"', () => {
+      cy.get('#addButton')
+        .click()
+    });
+
+    it('Quando o Todo estiver criado', () => {
+      cy.get('#list > div')
+        .should('be.not.empty')
+    })
+
+    it('E clicar no botão "X" vermelho, acima do Todo', () => {
+      cy.get('.deleteItem')
+        .click()
+    })
+
+    it('Então a lista de Todo deverá estar vazia', () => {
+      cy.get('#list > div')
+        .should('be.empty')
+    })
+  });
 })
