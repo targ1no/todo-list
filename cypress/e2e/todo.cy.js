@@ -1,16 +1,19 @@
 /* todo.cy.js */
 
 describe('Fluxo Todo List', () => {
+
+  beforeEach(() => {
+    // visit
+  });
+
   context('Verificando botão de limpar texto no input', () => {
     it('Dado que o usuário acessa a página da aplicação', () => {
       cy.visit('https://targ1no.github.io/todo-list/')
     });
 
     it('E digita um item no input', () => {
-      cy.get('#input')
-        .type('School')
-      cy.get('#input')
-        .should('have.value', 'School')
+      cy.typeInputText('School')
+      cy.inputShoulHaveValue('School')
     });
 
     it('Quando clica no botão "Clear"', () => {
@@ -30,10 +33,8 @@ describe('Fluxo Todo List', () => {
     });
 
     it('E digita um item no input', () => {
-      cy.get('#input')
-        .type('School')
-      cy.get('#input')
-        .should('have.value', 'School')
+      cy.typeInputText('School')
+      cy.inputShoulHaveValue('School')
     });
 
     it('Quando clica no botão "Add"', () => {
@@ -53,10 +54,8 @@ describe('Fluxo Todo List', () => {
     });
 
     it('E digita um item no input', () => {
-      cy.get('#input')
-        .type('School')
-      cy.get('#input')
-        .should('have.value', 'School')
+      cy.typeInputText('School')
+      cy.inputShoulHaveValue('School')
     });
 
     it('E clica no botão "Add"', () => {
@@ -75,7 +74,7 @@ describe('Fluxo Todo List', () => {
     })
 
     it('Então o Todo deverá estar com um risco, apontando que já foi feito', () => {
-      //ASSERTIONS
+      // cy.get('#list > div').screenshot()
     })
   })
 
@@ -85,10 +84,8 @@ describe('Fluxo Todo List', () => {
     });
 
     it('E digita um item no input', () => {
-      cy.get('#input')
-        .type('School')
-      cy.get('#input')
-        .should('have.value', 'School')
+      cy.typeInputText('School')
+      cy.inputShoulHaveValue('School')
     });
 
     it('E clica no botão "Add"', () => {
