@@ -9,7 +9,10 @@ Cypress.Commands.add('inputShoulHaveValue', (value) => {
         .should('have.value', value)
 })
 
-//
+Cypress.Screenshot.defaults({
+    overwrite: true,
+})
+
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })

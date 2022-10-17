@@ -74,7 +74,7 @@ describe('Fluxo Todo List', () => {
     })
 
     it('Então o Todo deverá estar com um risco, apontando que já foi feito', () => {
-      // cy.get('#list > div').screenshot()
+      cy.get('#list > div').screenshot("Todo riscado")
     })
   })
 
