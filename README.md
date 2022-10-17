@@ -23,15 +23,6 @@ Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do brows
 
 ![Alt Text](https://media.giphy.com/media/BAIjvSfJTJViOzDRru/giphy.gif)
 
-## BDD Structure Screenshot 
-
-![Logo do Markdown](front-end/assets/img/todo_bdd.png)
-- 
-![Logo do Markdown](front-end/assets/img/todo_bdd_2.png)
-- 
-![Logo do Markdown](front-end/assets/img/todo_bdd_3.png)
-
-
 ## Features
 
 - Limpa o input
@@ -74,6 +65,14 @@ Para executar os testes, siga os seguintes comandos:
 ```bash
   npx cypress run
 ```
+
+## BDD Structure Screenshot 
+
+![Logo do Markdown](front-end/assets/img/todo_bdd.png)
+- 
+![Logo do Markdown](front-end/assets/img/todo_bdd_2.png)
+- 
+![Logo do Markdown](front-end/assets/img/todo_bdd_3.png)
 
 ## Feedback
 
