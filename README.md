@@ -72,7 +72,7 @@ Para executar os testes, siga os seguintes comandos:
 (Verifique se tem o NodeJs instalado na sua máquina antes de dar continuidade)
 
 ```bash
-  npx run cypress
+  npx cypress run
 ```
 
 ## Feedback
