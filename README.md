@@ -19,9 +19,14 @@ Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do brows
 - [Todo List](https://targ1no.github.io/todo-list/)
 
 
-## Demo
+## Demo Application
 
 ![Alt Text](https://media.giphy.com/media/BAIjvSfJTJViOzDRru/giphy.gif)
+
+## BDD Structure Screenshot 
+
+![Logo do Markdown](front-end/assets/img/todo_bdd.png)
+![Logo do Markdown](front-end/assets/img/todo_bdd_2.png)
 
 
 ## Features
