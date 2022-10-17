@@ -27,6 +27,7 @@ Para depoloyar esse projeto, copie o link abaixo e cole na barra de url do brows
 
 ![Logo do Markdown](front-end/assets/img/todo_bdd.png)
 ![Logo do Markdown](front-end/assets/img/todo_bdd_2.png)
+![Logo do Markdown](front-end/assets/img/todo_bdd_3.png)
 
 
 ## Features
