@@ -1,7 +1,7 @@
 
 # To do List
 
-Uma lista de "Todos", tendo como finalidade colocar conhecimento em JS e Cypress na prática.
+Uma lista de "Todos", tendo como finalidade colocar conhecimento em JS, BDD e Cypress na prática.
 
 ## Status
 
